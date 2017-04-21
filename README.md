@@ -35,6 +35,6 @@ $("#j_password").keypress(function (e) {
 そこでユーザースクリプトではテキストボックスにバインドされた関数を削除しています。
 
 ```js
-$("#j_username").unbind('keypress');
-$("#j_password").unbind('keypress');
+jQuery('#j_username').unbind('keypress');
+jQuery('#j_password').unbind('keypress');
 ```

@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 jQuery(function () {
-	$('#j_username').unbind('keypress');
-	$('#j_password').unbind('keypress');
-	$('#btn-save').attr('value', $('#btn-save').attr('value') + ' (Enter)');
+	jQuery('#j_username').unbind('keypress');
+	jQuery('#j_password').unbind('keypress');
+	jQuery('#btn-save').attr('value', jQuery('#btn-save').attr('value') + ' (Enter)');
 });
