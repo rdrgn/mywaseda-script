@@ -12,7 +12,7 @@ Greasemonkey（Firefox）やTampermonkey（Google Chrome）の上で動作する
 
 ## Scripts
 
-### [MyWaseda Enter Login](https://rdrgn.github.io/mywaseda-script/mywaseda-enter-login.user.js)
+### [MyWaseda Enter Login](https://github.com/rdrgn/mywaseda-script/raw/master/mywaseda-enter-login.user.js)
 
 ログイン画面のenterキー無効可を解除するスクリプト。
 
