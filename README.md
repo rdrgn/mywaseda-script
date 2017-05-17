@@ -2,13 +2,13 @@
 
 [MyWaseda](https://my.waseda.jp/)用ユーザースクリプト。
 
-Greasemonkey（Firefox）やTampermonkey（Google Chrome）の上で動作する.user.jsファイルです。特定のウェブページの特定の要素に対して処理を行うため、ページの更新によって動作しなくなる場合があります。
+Greasemonkey（Firefox）やTampermonkey（Google Chrome）の上で動作する.user.jsファイルです。特定のウェブページの特定の要素に対して処理を行うため、ページの仕様変更や更新によって動作しなくなる場合があります。
 
 ## Installation
 
 1. ブラウザにユーザースクリプト実行アドオン（Greasemonkey, Tampermonkey）をインストールする。
 2. ブラウザでスクリプトを開く。
-3. アドオンにスクリプトをインストールか尋ねられるのでインストールする。
+3. アドオンにスクリプトをインストールするか尋ねられるのでインストールする。
 
 ## Scripts
 
