@@ -9,6 +9,10 @@
 // ==/UserScript==
 
 $(() => {
-	$('#j_username, #j_password').off('keypress');
+	$('#j_username, #j_password').on('keypress', e => {
+		if ((e.which || e.keyCode) === 13) {
+			$('#login').submit();
+		}
+	});
 	$('#btn-save').attr('value', $('#btn-save').attr('value') + ' (Enter)');
 });
