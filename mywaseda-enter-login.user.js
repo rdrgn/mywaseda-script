@@ -11,7 +11,7 @@
 $(() => {
 	$('#j_username, #j_password').on('keypress', e => {
 		if ((e.which || e.keyCode) === 13) {
-			$('#login').submit();
+			$(".col-xs-12 .btn-save").click();
 		}
 	});
 	$('#btn-save').attr('value', $('#btn-save').attr('value') + ' (Enter)');
