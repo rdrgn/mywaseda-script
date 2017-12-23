@@ -2,7 +2,7 @@
 
 [MyWaseda](https://my.waseda.jp/)用ユーザースクリプト。
 
-Greasemonkey（Firefox）やTampermonkey（Google Chrome）の上で動作する.user.jsファイルです。特定のウェブページの特定の要素に対して処理を行うため、ページの仕様変更や更新によって動作しなくなる場合があります。
+GreasemonkeyやTampermonkeyの上で動作する.user.jsファイルです。特定のウェブページの特定の要素に対して処理を行うため、ページの仕様変更や更新によって動作しなくなる場合があります。
 
 ## Installation
 
@@ -30,11 +30,4 @@ $("#j_password").keypress(function (e) {
 		return false;
 	}
 });
-```
-
-そこでユーザースクリプトではテキストボックスにバインドされた関数を削除しています。
-
-```js
-jQuery('#j_username').unbind('keypress');
-jQuery('#j_password').unbind('keypress');
 ```
