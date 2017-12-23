@@ -8,8 +8,7 @@
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // ==/UserScript==
 
-jQuery(function () {
-	jQuery('#j_username').unbind('keypress');
-	jQuery('#j_password').unbind('keypress');
-	jQuery('#btn-save').attr('value', jQuery('#btn-save').attr('value') + ' (Enter)');
+$(() => {
+	$('#j_username, #j_password').off('keypress');
+	$('#btn-save').attr('value', $('#btn-save').attr('value') + ' (Enter)');
 });
