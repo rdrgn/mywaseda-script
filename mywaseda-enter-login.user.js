@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name        MyWaseda Enter Login
 // @namespace   https://remin.jp
-// @version     1.1
+// @version     1.2.0
 // @author      remin
 // @description Scripts to enable enter key on MyWaseda login page
-// @include     https://iaidp.ia.waseda.jp/idp/profile/SAML2/Redirect/*
-// @require     https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @include     https://iaidp.ia.waseda.jp/idp/profile/SAML2/*
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // ==/UserScript==
 
 $(() => {
