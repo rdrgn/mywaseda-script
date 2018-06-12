@@ -17,7 +17,7 @@ GreasemonkeyやTampermonkeyの上で動作する.user.jsファイルです。特
 [Install](https://github.com/rdrgn/mywaseda-script/raw/master/mywaseda-enter-login.user.js)
 
 ログイン画面の`enter`キーを有効にするスクリプト。
-ログイン画面のテキストボックス要素には`enter`によるsubmitを無効化する関数がバインドされていたため、新たにsubmitに相当する処理を追加しています。
+ログイン画面のテキストボックス要素には`enter`によるsubmitを無効化する下記の関数がバインドされていたため、新たにsubmitに相当する処理を追加しています。
 
 ```js
 $("#j_username").keypress(function (e) {
